@@ -1,0 +1,56 @@
+body{
+    background-color:#e5e5e5;
+}
+#sale img{
+    height:200px;
+    width:200px;
+}
+h1{
+    color:red;s
+}
+.card{
+    width:250px;
+    height:350px;
+    background-color: #e5e5e5;
+    border:none;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;   
+    border-radius: 25px;
+    justify-content: center;
+    overflow: hidden;   
+    align-items:center; 
+
+}
+#chair{
+    background-color: antiquewhite;
+}
+#chair img{
+    width:400px;
+    height:400px;
+}
+#chair img:hover{
+    width:410px;
+    height:410px;
+}
+#cushion {
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+#cushion img{
+    width:400px;
+    height:400px;
+}
+#cushion img:hover{
+    width:410px;
+    height:410px;
+}
+#wood img{
+    width:400px;
+    height:400px;
+}
+#wood img:hover{
+    width:410px;
+    height:410px;
+}
+              
+}

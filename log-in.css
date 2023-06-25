@@ -1,0 +1,14 @@
+
+body{
+    background-image: url("log-in.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#log{
+    margin-top:200px;
+    padding-left: 400px;
+}
+#log a{
+    text-decoration: none;
+}

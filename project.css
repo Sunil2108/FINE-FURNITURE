@@ -1,0 +1,65 @@
+h1{
+    color:red;
+}
+#first{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding:.5rem 5rem;
+    box-shadow: 5px 5px 20px black;
+    background-color: rgba(0, 0, 0, 0.621);
+}
+#navbarSupportedContent a{
+    color:aliceblue;
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
+}
+#navbarSupportedContent a:hover{
+         
+    border-bottom: 4px solid green;
+}
+section{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.4)),url("back.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+#cart img{
+    background-color: grey;
+    border:none;
+
+}
+#home h1{
+    font-size: 80px;
+    color:white;
+    letter-spacing:3px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 1px 0px  #CCC,
+                 0px 2px 0px  #CCC,
+                 0px 3px 0px  #CCC,
+                 0px 4px 0px  #CCC,
+                 0px 5px 0px  #CCC,
+                 0px 6px 0px  #CCC,
+                 0px 7px 0px  #CCC,;
+}
+#home pre{
+    color:rgb(25, 210, 148);
+}
+#home a{
+    text-decoration: none;
+    color:white;
+
+}
+#showroom{
+    border-image-width: 400px;
+    
+}
